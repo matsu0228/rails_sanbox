@@ -1,0 +1,9 @@
+{
+	"solargraph.useBundler": true,
+	"solargraph.bundlerPath":"/Users/mtskhs/.rbenv/versions/3.1.2/bin/bundle",
+	"solargraph.commandPath": "/Users/mtskhs/.rbenv/versions/3.1.2/bin/solargraph",
+	"ruby.useBundler": true,
+	"ruby.lint": {
+	    "rubocop": true
+	}
+    }
