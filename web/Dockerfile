@@ -30,6 +30,8 @@ RUN apk update && \
     apk add \
         mysql-dev \
         tzdata \
+        nodejs \
+        yarn \
         bash
 
 WORKDIR ${ROOT}

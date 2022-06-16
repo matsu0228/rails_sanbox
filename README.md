@@ -43,6 +43,23 @@ then, open `http://localhost:3000` with browser.
 $ docker-compose logs web 
 ```
 
+**view db**
+
+```
+$ docker-compose run db bash
+
+mysql -h localhost -u root -p**set password here**
+```
+
+## railsコマンド
+
+- webコンテナに向けて実行する
+
+```
+# 例
+docker-compose run web rails generate scaffold **
+```
+
 ## 開発環境
 
 
